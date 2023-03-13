@@ -14,11 +14,11 @@ public class Driver {
 		String LastName=sc.nextLine();
 		Employee employee1=new Employee(FirstName, LastName);
 		Implementation credentials=new Implementation();
+		System.out.println("Enter your department");
 		System.out.println("1. Technical");
 		System.out.println("2. Admin");
 		System.out.println("3. HR");
 		System.out.println("4. Legal");
-		System.out.println("Enter your department");
 		int department=sc.nextInt();
 		String generateemial="";
 		String generatepassword="";
